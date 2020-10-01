@@ -22,8 +22,8 @@ class HomeController extends Controller
 		return view('kontak');
 	}
 
-  public function admin(){
-		return view('admin');
+  public function login(){
+		return view('login');
 	}
 
 }

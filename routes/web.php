@@ -27,4 +27,4 @@ Route::get('home', 'HomeController@index');
 Route::get('/home', 'HomeController@home');
 Route::get('/home/tentang', 'HomeController@tentang');
 Route::get('/home/kontak', 'HomeController@kontak');
-Route::get('/home/admin', 'HomeController@admin');
+Route::get('/home/login', 'HomeController@login');
