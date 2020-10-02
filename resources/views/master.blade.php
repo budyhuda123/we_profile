@@ -15,7 +15,9 @@
 			|
 			<a href="/home/kontak">KONTAK</a>
       |
-      <a href="/home/login">Login</a>
+      <a href="/home/login">BERITA</a>
+			|
+			  <a href="/home/berita">Login</a>
 		</nav>
 	</header>
 	<hr/>

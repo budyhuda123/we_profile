@@ -21,10 +21,11 @@ Route::get('galeri', function () {
 });
 
 
-Route::get('home', 'HomeController@index');
+Route::get('home','HomeController@index');
 
 // route blog
-Route::get('/home', 'HomeController@home');
-Route::get('/home/tentang', 'HomeController@tentang');
-Route::get('/home/kontak', 'HomeController@kontak');
-Route::get('/home/login', 'HomeController@login');
+Route::get('/home','HomeController@home');
+Route::get('/home/tentang','HomeController@tentang');
+Route::get('/home/kontak','HomeController@kontak');
+Route::get('/home/login','HomeController@login');
+Route::get('/home/berita','BeritaController@berita');
