@@ -13,16 +13,29 @@ class BeritaController extends Controller
      $berita = DB::table('berita')->get();
 
      // mengirim data berita ke view index
-     return view('berita',['berita' => $berita]);
+    return view('berita',['berita' => $berita]);
 
    }
-   public function home()
+   // method untuk menampilkan view form tambah pegawai
+    public function tambah()
     {
-    // mengambil data dari table berita
-    $berita = DB::table('berita')->get();
 
-    // mengirim data berita ke view index
-    return view('home',['berita' => $home]);
+    	// memanggil view tambah
+    	return view('tambah');
+
+    }
+    // method untuk insert data ke table pegawai
+    public function store(Request $request)
+    {
+    	// insert data ke table pegawai
+    	DB::table('berita')->insert([
+    		'judul' => $request->judul,
+    		'tgl' => $request->tgl,
+    		'gambar' => $request->gambar,
+    		'isi' => $request->isi
+    	]);
+    	// alihkan halaman ke halaman pegawai
+    	return redirect('/berita');
 
     }
 }
