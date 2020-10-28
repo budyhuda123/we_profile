@@ -26,4 +26,7 @@ class HomeController extends Controller
 		return view('login');
 	}
 
+  public function galeri(){
+    return view('galeri');
+  }
 }

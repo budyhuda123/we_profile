@@ -29,6 +29,7 @@ Route::get('/home/tentang','HomeController@tentang');
 Route::get('/home/kontak','HomeController@kontak');
 Route::get('/home/login','HomeController@login');
 Route::get('/home/berita','BeritaController@berita');
+Route::get('/home/galeri','GaleriController@galeri');
 Route::get('/berita/tambah','BeritaController@tambah');
 //Route::get('/tambah/berita','BeritaController@berita');
 Route::post('/berita/store','BeritaController@store');

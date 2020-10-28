@@ -11,12 +11,14 @@
 		<nav>
 			<a href="/home">HOME</a>
 			|
+			<a href="/home/berita">BERITA</a>
+			|
+			<a href="/home/galeri">GALERI</a>
+			|
 			<a href="/home/tentang">TENTANG</a>
 			|
 			<a href="/home/kontak">KONTAK</a>
       |
-      <a href="/home/berita">BERITA</a>
-			|
 			<a href="/home/login">Login</a>
 		</nav>
 	</header>

@@ -14,9 +14,10 @@ class BeritaController extends Controller
 
      // mengirim data berita ke view index
     return view('berita',['berita' => $berita]);
+    
 
    }
-   // method untuk menampilkan view form tambah pegawai
+   // method untuk menampilkan view form tambah berita
     public function tambah()
     {
 
