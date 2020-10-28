@@ -23,7 +23,7 @@
 	<br/>
 	<br/>
 
-	<table border="1">
+	<!--table border="1">
 		<tr>
 
 			<th>Judul</th>
@@ -46,7 +46,7 @@
 			</td>
 		</tr>
 		@endforeach
-	</table>
+	</table-->
 
 
 </body>
@@ -138,9 +138,9 @@
 									 </div>
 							 </div>
 					 </div>
-					 @endforeach
+@endforeach
+					 <br>
 			 </div>
-
 	 </div>
 </div>
 													 </body>
