@@ -125,7 +125,7 @@
 
 			 <div class="row">
 				 @foreach($berita as $b)
-					 <div class="col-lg-4 ">
+					 <div class="col-lg-4  ">
 							 <!-- bbb_adv Item -->
 							 <div class="bbb_adv d-flex flex-row align-items-center justify-content-start">
 									 <div class="bbb_adv_content">
